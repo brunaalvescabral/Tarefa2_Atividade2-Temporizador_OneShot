@@ -51,6 +51,7 @@ target_link_libraries(Tarefa2_Atividade2-Temporizador_OneShot
 # Add the standard include files to the build
 target_include_directories(Tarefa2_Atividade2-Temporizador_OneShot PRIVATE
         ${CMAKE_CURRENT_LIST_DIR}
+        ${CMMAKE_SOURCE_DIR}/include
 )
 
 # Add any user requested libraries
