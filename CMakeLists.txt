@@ -35,7 +35,7 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(Tarefa2_Atividade2-Temporizador_OneShot main.c )
+add_executable(Tarefa2_Atividade2-Temporizador_OneShot main.c)
 
 pico_set_program_name(Tarefa2_Atividade2-Temporizador_OneShot "Tarefa2_Atividade2-Temporizador_OneShot")
 pico_set_program_version(Tarefa2_Atividade2-Temporizador_OneShot "0.1")
